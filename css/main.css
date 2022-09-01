@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=DynaPuff&family=Poppins:wght@400;500&family=Roboto+Mono:wght@100;500&family=Roboto:wght@100&family=Signika+Negative:wght@300;400&family=Ubuntu&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: 'DynaPuff', cursive;
+  font-size: 1.7rem;
+}
+
+.navbar-nav .nav-link {
+  margin: 10px;
+  font-size: .9rem;
+  font-family: 'DynaPuff', cursive;
+}
+
+.carousel-inner h5 {
+  font-size: 1.8rem;
+  color: aliceblue;
+  font-weight: 900;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.carousel-inner h5 i {
+  color: crimson;
+  margin-left: 5px;
+}
+
+.carousel-inner p {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+.container-about {
+  background-color: black;
+}
+
+.container-about h1 {
+  text-align: center;
+  color: aliceblue;
+  font-family: 'DynaPuff', cursive;
+  text-shadow: 1px 1px 3px white;
+  font-size: 1.7rem;
+  padding-top: 8px;
+}
+
+.container-about .accordion-body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-adventure {
+  background-color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-adventure h1 {
+  text-align: center;
+  color: aliceblue;
+  font-family: 'DynaPuff', cursive;
+  text-shadow: 1px 1px 3px white;
+  font-size: 1.7rem;
+  padding-top: 8px;
+}
+
+.container-adventure .card {
+  margin-top: 8px;
+}
+
+.container-adventure .card h3 {
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: 'DynaPuff', cursive;
+  margin-top: 10px;
+}
+
+.container-adventure .card h3 i {
+  color: rgba(255, 153, 0, 0.993);
+  margin-left: 5px;
+}
+
+.container-adventure .card img {
+  margin-top: 8px;
+}
+
+.container-adventure .card .card-body .card-title i {
+  color: goldenrod;
+}
+
+.container-adventure .card .card-body .card-title h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-adventure .card .card-body .card-text {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 80px;
+}
+
+footer p a {
+  margin: 5px;
+}
+
+footer p img {
+  height: 20px;
+  margin-top: 5px;
+  color: whitesmoke;
+}
+
+footer h4 {
+  color: white;
+  font-family: cursive;
+  font-size: .8rem;
+}
+
+footer h4 img {
+  height: 15px;
+  margin-bottom: 3px;
+  margin-left: 2px;
+}
+/*# sourceMappingURL=main.css.map */

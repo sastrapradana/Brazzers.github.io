@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=DynaPuff&family=Poppins:wght@400;500&family=Roboto+Mono:wght@100;500&family=Roboto:wght@100&family=Signika+Negative:wght@300;400&family=Ubuntu&display=swap');
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+// navbar
+.navbar-brand {
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.7rem;
+}
+
+.navbar-nav {
+    .nav-link {
+        margin: 10px;
+        font-size: .9rem;
+        font-family: 'DynaPuff', cursive;
+    }
+}
+// carousel
+.carousel-inner {
+    h5 {
+        font-size: 1.8rem;
+        color: aliceblue;
+        font-weight: 900;
+        font-family: 'Signika Negative', sans-serif;
+        i {
+            color: crimson;
+            margin-left: 5px;
+        }
+    }
+    p {
+        font-size: 1.2rem;
+        color: aliceblue;
+    }
+}
+// aboout
+.container-about {
+    background-color: black;
+
+    h1 {
+        text-align: center;
+        color: aliceblue;
+        font-family: 'DynaPuff', cursive;
+        text-shadow: 1px 1px 3px white;
+        font-size: 1.7rem;
+        padding-top: 8px;
+    }
+    .accordion-body {
+    font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+// adventure 
+.container-adventure {
+    background-color: black;
+    box-sizing: border-box;
+
+    h1 {
+        text-align: center;
+        color: aliceblue;
+        font-family: 'DynaPuff', cursive;
+        text-shadow: 1px 1px 3px white;
+        font-size: 1.7rem;
+        padding-top: 8px;
+    }
+    .card {
+        margin-top: 8px;
+        h3 {
+            color: black;
+            text-align: center;
+            font-size: 1.3rem;
+            font-family: 'DynaPuff', cursive;
+            margin-top: 10px;
+            i {
+                color: rgba(255, 153, 0, 0.993);
+                margin-left: 5px;
+            }
+        }
+        img {
+            margin-top: 8px;
+        }
+        .card-body {
+            .card-title {
+                i {
+                    color: goldenrod;
+                }
+                h5 {
+                    font-family: 'Ubuntu', sans-serif;
+                }
+            }
+            .card-text {
+                font-family: 'Signika Negative', sans-serif;
+            }
+        }
+    }
+
+}
+// footer
+footer {
+    background-color: black;
+    text-align: center;
+    height: 80px;
+
+    p {
+        a {
+            margin: 5px;
+        }
+        img {
+            height: 20px;
+            margin-top: 5px;
+            color: whitesmoke;
+        }
+    }
+    h4 {
+        color: white;
+        font-family: cursive;
+        font-size: .8rem;
+        img {
+            height: 15px;
+            margin-bottom: 3px;
+            margin-left: 2px;
+        }
+    }
+}
+
+
+
+
+
+
